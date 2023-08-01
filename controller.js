@@ -47,7 +47,7 @@ function criarLista() {
 }
 // FUNÇÃO PARA EDITAR NOME
 function editar(i) {
-    document.getElementById(nomeUser).value = dadosLista[(i - 1)];
+    document.getElementById('nomeUser').value = dadosLista[(i - 1)];
     dadosLista.splice(dadosLista[(i - 1)], 1);
 }
 
